@@ -22,7 +22,7 @@ def get_pet(pet="dog"):
 
     """The factory method"""
     
-    pets = dict(dog=Dog(name="Hope"), cat=Cat("Peace"))
+    pets = dict(dog=Dog("Hope"), cat=Cat("Peace"))
 
     return pets[pet]
 
