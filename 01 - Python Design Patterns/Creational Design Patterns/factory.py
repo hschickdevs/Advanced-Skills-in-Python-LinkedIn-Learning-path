@@ -1,4 +1,6 @@
-# Scenario: Pet shop used to sell only dogs, but now needs to be able to sell cats too.
+# The following code example is for the "Factory" design pattern, which encapsulates object creation.
+
+# Scenario: Pet shop used to sell only dogs, but now needs to be able to sell cats too:
 
 class Dog:
 
