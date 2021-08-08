@@ -15,6 +15,6 @@ _________________________________________________
   * #### Parallel and Concurrent Programming
 * #### Industry Standard Practices
 * #### Creation of practical applications through hands-on practice
-* #### And be able to apply my knowledge to work professionally as a Python programmer.
+* #### And be able to apply the knowledge to professional Python work.
 
 _________________________________________________
