@@ -14,6 +14,7 @@ class Child(Component): #Inherits from the abstract class, Component
 		Component.__init__(self, *args, **kwargs)
 
 		#This is where we store the name of your child item!
+		self.name = args[0]
 		
 
 	def component_function(self):
@@ -27,7 +28,7 @@ class Composite(Component): #Inherits from the abstract class, Component
 		Component.__init__(self, *args, **kwargs)
 
 		#This is where we store the name of the composite object
-		
+		self.name = args[0]
 
 		#This is where we keep our child items
 		self.children = []
@@ -63,15 +64,16 @@ sub1.append_child(sub11)
 sub1.append_child(sub12)
 
 #Build a top-level composite menu
-
+top = Composite("top_menu")
 
 #Build a submenu 2 that is not a composite
-
+sub2 = Child("submenu2")
 
 #Add the composite submenu 1 to the top-level composite menu
+top.append_child(sub1)
 
 #Add the plain submenu 2 to the top-level composite menu
-
+top.append_child(sub2)
 
 #Let's test if our Composite pattern works!
 top.component_function()

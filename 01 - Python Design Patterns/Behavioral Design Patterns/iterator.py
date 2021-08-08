@@ -6,7 +6,7 @@ def count_to(count):
 
 	#Our built-in iterator
 	#Creates a tuple such as (1, "eins")
-	
+	iterator = zip(range(count), numbers_in_german)
 	
 	#Iterate through our iterable list
 	#Extract the German numbers
@@ -14,7 +14,9 @@ def count_to(count):
 	for position, number in iterator:
 		
 		#Returns a 'generator' containing numbers in German
+		yield number
 		
 #Let's test the generator returned by our iterator
+print([num for num in count_to(3)])
 
-	
+print([num for num in count_to(5)])
