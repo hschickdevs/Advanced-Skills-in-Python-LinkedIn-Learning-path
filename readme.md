@@ -4,7 +4,7 @@
 
 _________________________________________________
 
-### In this course I will learn:
+### This course covers:
 * #### Advanced Python Programming Concepts Such As:
   * #### [Design Patterns](https://github.com/hschickdevs/Advanced-Skills-in-Python-LinkedIn-Learning-path/tree/main/01%20-%20Python%20Design%20Patterns)
   * #### [Python Generators](https://github.com/hschickdevs/Advanced-Skills-in-Python-LinkedIn-Learning-path/tree/main/02%20-%20Python%20Generators)
