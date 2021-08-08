@@ -6,8 +6,8 @@ _________________________________________________
 
 ### In this course I will learn:
 * #### Advanced Python Programming Concepts Such As:
-  * #### Design Patterns
-  * #### Python Generators
+  * #### [Design Patterns](https://github.com/hschickdevs/Advanced-Skills-in-Python-LinkedIn-Learning-path/tree/main/01%20-%20Python%20Design%20Patterns)
+  * #### [Python Generators](https://github.com/hschickdevs/Advanced-Skills-in-Python-LinkedIn-Learning-path/tree/main/02%20-%20Python%20Generators)
   * #### Effective Serialization
   * #### Basic GUI Development
   * #### Secure Coding
